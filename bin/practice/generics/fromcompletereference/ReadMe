@@ -1,0 +1,9 @@
+Generics Work Only with Reference Types
+
+You cannot use a primitive type, such as char,int
+
+Gen<int> intOb = new Gen<int>(53); // Error, can't use primitive type
+
+Gen<Integer> intOb = new Gen<Integer>(53); // it works 
+
+
